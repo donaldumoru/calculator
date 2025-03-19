@@ -18,16 +18,16 @@ const calculate = function (a, b, operator) {
     calculatorDisplay.value = firstNumber;
   } else {
     switch (operator) {
-      case (operator = '+'):
+      case '+':
         total = a + b;
         break;
-      case (operator = '-'):
+      case '-':
         total = a - b;
         break;
-      case (operator = '/'):
+      case '/':
         total = a / b;
         break;
-      case (operator = '*'):
+      case '*':
         total = a * b;
         break;
     }
